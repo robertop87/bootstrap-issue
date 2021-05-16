@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+@media print {
+    body {
+        margin: 0 !important;
+        padding: 0 !important;
+        min-width: 20px !important;
+      }
+      .container {
+        width: auto;
+        min-width: none;
+      }
+}
